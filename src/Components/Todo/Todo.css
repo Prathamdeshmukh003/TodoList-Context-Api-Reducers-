@@ -1,0 +1,53 @@
+.List{
+    background-color: azure;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 500px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.List:hover{
+    background-color:gainsboro;
+}
+span{
+    width: 250px;
+    font-size: 20px;
+}
+.edt-btn{
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.del-btn{
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(255, 81, 81);
+    cursor: pointer;
+}
+.edt-btn:hover,.del-btn:hover{
+    box-shadow: 1px 5px 5px;
+}
+.edt_text{
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 220px;
+}

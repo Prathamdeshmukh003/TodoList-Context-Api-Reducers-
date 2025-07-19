@@ -1,0 +1,35 @@
+.mainInput{
+    padding: 1rem;
+    border-top-color: aqua;
+    border-bottom-color: aquamarine;
+    border-left-color: aqua;
+    border-right-color: aquamarine;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 400px;
+}
+.mainInput:hover{
+    box-shadow: 1px 5px 5px;
+}
+.Add{
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border: none;
+}
+.Add:hover{
+    box-shadow: 1px 5px 5px;
+}
+.AddTodo{
+    margin-bottom: 70px;
+}
+.mainInput::placeholder{
+    font-weight: bold;
+}
+
+

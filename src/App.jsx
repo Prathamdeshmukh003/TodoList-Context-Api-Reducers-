@@ -15,9 +15,11 @@ function App() {
   return (
     <TodoContext.Provider value={{ list }}>
       <TodoDispatchContext.Provider value={{dispatch}}>
+      <div className="main">
         <h1>Todo App</h1>
         <AddTodo />
         <TodoList />
+      </div>
       </TodoDispatchContext.Provider>
     </TodoContext.Provider>
   );
